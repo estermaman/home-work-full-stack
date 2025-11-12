@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body dir="rtl">
+    <header>
+        <h2>רישום למחנה תשפו</h2>
+       
+    </header>
+     <section id="זהות">
+           <article>
+            <form action="./index.html">
+            <input type="text" name="שם התלמידה" placeholder="שם התלמידה" id="name" required maxlength="20"autofocus> 
+            <hr>
+            <input type="number" name="phone" placeholder="מספר טלפון"id=phone minlength="9" autofocus>
+            <hr>
+            <label for="city">עיר</label>
+            <select name="city" id="city">
+                <option value="empty ">אחר</option>
+                <option value="מודיעין עלית">מודיעין עלית</option>
+                
+                <option value="ירושלים ">ירושלים</option>
+                <option value="צפת ">צפת</option>
+                            <input type="other" name="other" placeholder="אחר "id=phone minlength="3" autofocus>
+
+            </select>
+            <button type="submit">אישור הטופס</button>
+                        <button type="reset">איפוס </button>
+
+           </article> 
+        </section>
+        <footer>
+            <span>מחכים לראותך</span>
+        </footer>
+        </form>
+</body>
+</html>
